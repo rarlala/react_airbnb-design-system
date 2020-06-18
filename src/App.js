@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './sass/materialize.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          기본 값 출력
-        </p>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <nav>
+          <div className="nav-wrapper">
+            <div>시작</div>
+          </div>
+        </nav>
+        <h1>머티리얼 CSS</h1>
+      </div>
+    );
+  }
 }
 
 export default App;
