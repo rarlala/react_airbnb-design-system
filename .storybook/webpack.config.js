@@ -4,7 +4,7 @@ module.exports = {
     module: {
         rules: [
             {
-                tedt: /\.scss$/,
+                test: /\.scss$/,
                 loaders: ["sass-loader"],
                 include: path.resolve(__dirname, "../")
             }
