@@ -39,6 +39,7 @@ class Input extends PureComponent{
                     onFocus={onFocus}
                     value={value}
                     type={type}
+                    name={name}
                 />
                 {errorMessage && <span className="error">{errorMessage}</span>}
             </label>
